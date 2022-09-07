@@ -2,10 +2,10 @@
 
 {{
     config(
-      target_schema='snapshots',
-      unique_key="hospoda||'-'||mesto",
-      strategy='timestamp',
-      updated_at='aktualizace',
+      target_schema='snapshots3',
+       unique_key='ukey',
+       strategy='timestamp',
+       updated_at='aktualizace'
     )
 }}
 

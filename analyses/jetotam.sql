@@ -6,4 +6,6 @@
 -- select * from {{ref('hratky')}}
 
 --snapshots
--- select * from {{ref('piva')}}
+select * from {{ ref('minitest1_snapshot') }}
+
+{# -- {{ run-operation() }} #}

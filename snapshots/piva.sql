@@ -2,7 +2,7 @@
 
 {{
     config(
-      target_schema='snapshots3',
+      target_schema='dbt_lubos',
        unique_key='ukey',
        strategy='timestamp',
        updated_at='aktualizace'

@@ -1,0 +1,13 @@
+version: 2
+
+seeds:
+  - name: scd
+    config:
+      quote_columns: false
+      +column_types:
+        hospoda: string
+        mesto: string
+        pivo: string
+        cena: int
+        aktualizace: timestamp
+      # column_types: {column_name: datatype}

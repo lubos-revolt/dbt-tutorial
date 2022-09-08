@@ -7,7 +7,9 @@
 
 }}
 
-select * from {{ ref('scd') }} 
+{{ log('Tohle ma failnout!')}}
+
+select aktualizace as extra_col, * from {{ ref('scd') }} 
 -- where aktualizace < '2021-01-01'
 -- where aktualizace < '2022-02-01'
 where aktualizace > '2022-02-01'

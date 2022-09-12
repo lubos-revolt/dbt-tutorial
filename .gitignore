@@ -1,1 +1,4 @@
 .dbtenv/
+.vscode/settings.json
+logs/*
+target/*
